@@ -1,0 +1,171 @@
+
+
+
+
+
+
+nav{
+
+    
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    right:50px;
+    top:-20px;
+}
+nav a{
+    margin:30px;
+  padding:10px;
+  border-radius: 5px;
+  text-decoration: none;
+    background-color: bisque;
+    color: black;
+    
+}
+nav a:hover{
+    background-color:antiquewhite;
+    color:rgb(57, 42, 20);
+}
+#MainT{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgba(245, 245, 245, 0.582);
+    display: inline;
+    color: black;
+}
+
+.Maindiv{
+    display:flex;
+align-items: center; 
+   justify-content:center;
+    text-align: center;
+    background-image:url("/imgs/check.jpg");
+    width:100%;
+    height:200px;
+}
+.Maindiv img{
+    width:100%;
+    height:200px;
+}
+.nissanGTR{
+    margin:10px;
+    background-image: linear-gradient(red,blue,purple);
+}
+.cars h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cars{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.Lambo{
+    margin:10px;
+    background-image: linear-gradient(red,black);
+
+}
+.Lambo h4{
+    color: rgb(218, 22, 22);
+}
+ .ford{
+    margin:10px;
+    background-image: linear-gradient(orange,aliceblue);
+ }
+ 
+.DivH{
+    position: relative;
+    background-color: beige;
+    height:60px;
+
+}
+header h1{
+    position: absolute;
+    top:-10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.MainPrice{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.Top{
+    text-align:center;
+
+
+}
+.Top hr{
+    width: 80%;
+}
+.PriceLow{
+    background-color:blanchedalmond;
+    padding:10px;
+}
+.ButtonDiv{
+    text-align: center;
+}
+.OrderButton{
+    border:none;
+    background-color: rgb(255, 127, 80);
+    border-radius: 10%;
+    padding:20px;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.OrderButton:Hover{
+    background-color:rgb(191, 83, 44);
+    
+
+}
+.OrderButton:active{
+    transform: translateY(5px);
+}
+
+.FooterDiv{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+background-image: linear-gradient( rgb(245, 245, 220), rgb(195, 195, 167));
+
+    display: flex;
+align-items: center;
+}
+.FooterDiv h3{
+    margin-left: 10px;
+}
+
+
+.Electric_DropContent{
+display: none;
+
+
+
+}
+.Electric_DropContent li{
+border-radius: 50px;
+text-align: center;
+
+}
+.Electric_Drop:hover .Electric_DropContent{
+    display: block;
+    position:absolute;
+    background-color: aliceblue;
+    margin-left: 32px;
+    margin-top:15px;
+
+}
+
+.Electric_DropContent ul{
+    padding:0;
+    margin:0;
+}
+.electric_Drop{
+    display:flex;
+
+}
+.Electric_DropContent li{
+    text-align: center;
+    width:100px;
+    margin:5px;
+}
